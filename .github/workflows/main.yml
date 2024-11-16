@@ -30,7 +30,7 @@ jobs:
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           branch: gh-pages
-          folder: dist  # AOE Tech Radar uses 'dist' as build output directory
+          folder: build  # AOE Tech Radar uses 'dist' as build output directory
           clean: true   # Automatically remove old files
 
       - name: Print deployment URL
